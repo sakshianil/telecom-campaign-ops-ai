@@ -4,6 +4,8 @@ AI-assisted telecom campaign operations pilot for a virtual contact center.
 
 This repository is a portfolio-grade project showing how a two-week pilot campaign can be designed for a 2-5 agent virtual center. It combines synthetic telecom customer data, lead segmentation, agent scripts, follow-up workflows, KPI reporting, and a static executive dashboard.
 
+![Telecom Campaign Ops AI dashboard](assets/images/dashboard-preview.png)
+
 ## Project Goal
 
 Help a virtual center launch a telecom campaign with clearer agent guidance, structured customer segments, CRM-ready follow-up status, and manager visibility.
