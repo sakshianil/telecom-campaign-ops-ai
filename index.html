@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI-assisted telecom campaign operations pilot for virtual contact centers.">
+  <title>Telecom Campaign Ops AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Telecom Campaign Ops AI home">
+      <span class="brand-mark">TC</span>
+      <span>Telecom Campaign Ops AI</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#agents">Agents</a>
+      <a href="#docs">Docs</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="label">Two-week virtual center pilot</p>
+        <h1>AI-ready telecom campaign operations.</h1>
+        <p class="hero-text">A no-API showcase for segmenting telecom leads and preparing 2-5 agents for focused outreach.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#dashboard">View dashboard</a>
+          <a class="button secondary" href="docs/campaign_playbook.md">Read playbook</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Pilot summary">
+        <img class="hero-visual" src="assets/images/telecom-ops-hero.png" alt="Telecom operations center with agents monitoring network and campaign dashboards">
+        <div>
+          <span>Campaign scope</span>
+          <strong>Retention, upgrade, renewal</strong>
+        </div>
+        <div>
+          <span>Operating model</span>
+          <strong>2-5 agents, daily review</strong>
+        </div>
+        <div>
+          <span>Baseline AI layer</span>
+          <strong>Scoring, scripts, reports</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section id="dashboard" class="dashboard-shell">
+      <div class="section-heading">
+        <h2>Campaign command view</h2>
+        <p>Synthetic lead data is scored into priority queues for campaign managers and agents.</p>
+      </div>
+
+      <div class="metric-grid" aria-label="Campaign metrics">
+        <article>
+          <span>Total leads</span>
+          <strong id="totalLeads">20</strong>
+          <p>Records ready for pilot review</p>
+        </article>
+        <article>
+          <span>High priority</span>
+          <strong id="highPriority">0</strong>
+          <p>Phone-first queue for senior agents</p>
+        </article>
+        <article>
+          <span>Business accounts</span>
+          <strong id="businessAccounts">0</strong>
+          <p>Small business and enterprise records</p>
+        </article>
+        <article>
+          <span>Avg. score</span>
+          <strong id="avgScore">0</strong>
+          <p>Sample priority score across leads</p>
+        </article>
+      </div>
+
+      <div class="ops-grid">
+        <section class="panel queue-panel" aria-labelledby="queueTitle">
+          <div class="panel-heading">
+            <h3 id="queueTitle">Priority call queue</h3>
+            <span>Top 6</span>
+          </div>
+          <div id="priorityQueue" class="queue-list"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="mixTitle">
+          <div class="panel-heading">
+            <h3 id="mixTitle">Campaign mix</h3>
+            <span>By recommendation</span>
+          </div>
+          <div id="campaignMix" class="mix-list"></div>
+        </section>
+
+        <section class="panel table-panel" aria-labelledby="tableTitle">
+          <div class="panel-heading">
+            <h3 id="tableTitle">Lead tracker</h3>
+            <span>CRM-ready sample</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Lead</th>
+                  <th>Segment</th>
+                  <th>Service</th>
+                  <th>Priority</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="leadRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="workflow" class="workflow-section">
+      <div class="section-heading">
+        <h2>Workflow from data to action</h2>
+        <p>The project turns raw customer signals into manager decisions and agent-ready guidance.</p>
+      </div>
+      <div class="workflow-grid">
+        <article>
+          <span>Input</span>
+          <h3>Customer signals</h3>
+          <p>Usage, contract timing, ticket history, channel preference, payment risk, and account segment.</p>
+        </article>
+        <article>
+          <span>Scoring</span>
+          <h3>Campaign priority</h3>
+          <p>Rules classify leads into retention rescue, plan upgrade, renewal, or nurture queues.</p>
+        </article>
+        <article>
+          <span>Action</span>
+          <h3>Agent execution</h3>
+          <p>Scripts, objections, CRM notes, and follow-up steps keep the calling block consistent.</p>
+        </article>
+        <article>
+          <span>Review</span>
+          <h3>Manager report</h3>
+          <p>Daily summaries expose queue quality, campaign mix, objections, and scale readiness.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="agents" class="agent-section">
+      <div>
+        <h2>Built for a small pilot team first.</h2>
+        <p>The recommended start is 2-5 agents, with controlled scripts and daily feedback before scaling. This keeps operational risk low while measuring whether the campaign is worth expanding.</p>
+      </div>
+      <div class="agent-card">
+        <h3>Agent support kit</h3>
+        <ul>
+          <li>Opening lines by campaign motion</li>
+          <li>Objection-handling guidance</li>
+          <li>CRM note structure</li>
+          <li>Daily coaching loop</li>
+          <li>Manager-ready KPI summary</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="docs" class="docs-section">
+      <div class="section-heading">
+        <h2>Project documentation</h2>
+        <p>Use these files to understand the strategy, operating model, and scale path.</p>
+      </div>
+      <div class="doc-links">
+        <a href="docs/campaign_playbook.md">Campaign playbook</a>
+        <a href="docs/agent_onboarding.md">Agent onboarding</a>
+        <a href="docs/kpi_framework.md">KPI framework</a>
+        <a href="docs/two_week_pilot_plan.md">Two-week plan</a>
+        <a href="docs/architecture.md">Architecture</a>
+        <a href="outputs/sample_manager_report.md">Sample report</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built as a synthetic portfolio project for AI-assisted BPO and telecom campaign operations.</p>
+    <a href="https://github.com/sakshianil" target="_blank" rel="noreferrer">Sakshi Bharti</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

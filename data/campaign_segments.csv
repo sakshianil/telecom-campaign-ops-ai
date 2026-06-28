@@ -1,0 +1,21 @@
+lead_id,customer_name,segment,region,service_type,monthly_spend_usd,contract_months_remaining,data_usage_gb,support_tickets_90d,payment_risk,last_contact_days,preferred_channel,current_status,campaign_score,priority,recommended_action
+TL-001,Maribel Santos,Small Business,Manila,Business Fiber,118,2,820,3,Low,18,Email,Contract ending soon,66,High,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-002,Paolo Reyes,Residential,Cebu,Mobile Postpaid,38,8,94,1,Low,42,SMS,Stable customer,18,Low,Nurture: Low-pressure SMS or email check-in
+TL-003,Luz Mendoza,Residential,Davao,Home Broadband,52,1,410,4,Medium,9,Phone,Repeated complaints,80,High,Retention rescue: Priority phone call with service recovery offer
+TL-004,Ramon Cruz,Small Business,Quezon City,VoIP Bundle,96,5,260,0,Low,75,Email,Upgrade eligible,56,Medium,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-005,Angela Lim,Residential,Iloilo,Mobile Postpaid,44,0,126,2,Medium,14,SMS,Contract expired,38,Medium,Renewal: Confirm renewal interest and contract timing
+TL-006,Nestor Garcia,Enterprise,Manila,Business Fiber,310,3,2100,5,Low,6,Phone,High value at risk,66,High,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-007,Clarissa Tan,Residential,Bacolod,Home Broadband,49,9,380,0,Low,63,SMS,Stable customer,18,Low,Nurture: Low-pressure SMS or email check-in
+TL-008,Jomar Villanueva,Small Business,Cebu,VoIP Bundle,84,1,190,2,High,11,Phone,Payment concern,50,Medium,Retention rescue: Priority phone call with service recovery offer
+TL-009,Grace Bautista,Residential,Manila,Mobile Postpaid,31,4,18,0,Low,88,SMS,Low usage,18,Low,Nurture: Low-pressure SMS or email check-in
+TL-010,Miguel Torres,Small Business,Davao,Business Fiber,126,7,940,1,Low,29,Email,Upgrade eligible,84,High,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-011,Leah Fernandez,Residential,Quezon City,Home Broadband,58,2,620,3,Medium,5,Phone,Speed complaint,80,High,Retention rescue: Priority phone call with service recovery offer
+TL-012,Arvin Ramos,Enterprise,Cebu,Business Fiber,275,10,1850,1,Low,34,Email,Expansion prospect,84,High,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-013,Bianca Ong,Residential,Iloilo,Mobile Postpaid,47,6,142,0,Low,57,SMS,Family plan prospect,18,Low,Nurture: Low-pressure SMS or email check-in
+TL-014,Jose Mercado,Small Business,Manila,VoIP Bundle,103,0,310,4,High,3,Phone,Contract expired,74,High,Retention rescue: Priority phone call with service recovery offer
+TL-015,Fatima Navarro,Residential,Davao,Home Broadband,55,12,520,0,Low,91,Email,Stable customer,18,Low,Nurture: Low-pressure SMS or email check-in
+TL-016,Carlo Aquino,Small Business,Bacolod,Business Fiber,112,2,760,2,Medium,16,Phone,Renewal window,66,High,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-017,Sofia Castillo,Residential,Cebu,Mobile Postpaid,36,1,160,1,Low,20,SMS,Upgrade eligible,35,Low,Renewal: Confirm renewal interest and contract timing
+TL-018,Edwin Salazar,Enterprise,Quezon City,VoIP Bundle,240,4,680,6,Medium,8,Phone,Service escalation,66,High,"Plan upgrade: Email value bundle, then phone follow-up"
+TL-019,Maria Delgado,Residential,Manila,Home Broadband,61,0,700,2,Low,12,Email,Contract expired,35,Low,Renewal: Confirm renewal interest and contract timing
+TL-020,Joel Pascual,Small Business,Iloilo,Business Fiber,130,6,980,0,Low,48,Email,Expansion prospect,84,High,"Plan upgrade: Email value bundle, then phone follow-up"
